@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1649655644649" clover="3.2.0">
-  <project timestamp="1649655644649" name="All files">
-    <metrics statements="43" coveredstatements="43" conditionals="27" coveredconditionals="27" methods="9" coveredmethods="9" elements="79" coveredelements="79" complexity="0" loc="43" ncloc="43" packages="3" files="7" classes="7"/>
+<coverage generated="1650119764822" clover="3.2.0">
+  <project timestamp="1650119764822" name="All files">
+    <metrics statements="53" coveredstatements="53" conditionals="27" coveredconditionals="27" methods="12" coveredmethods="12" elements="92" coveredelements="92" complexity="0" loc="53" ncloc="53" packages="5" files="9" classes="9"/>
+    <package name="Applications.security">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="PasswordHash.js" path="C:\Users\Lenovo-PC\Desktop\auth-api\src\Applications\security\PasswordHash.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Applications.use_case">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="AddUserUseCase.js" path="C:\Users\Lenovo-PC\Desktop\auth-api\src\Applications\use_case\AddUserUseCase.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="Commons.exceptions">
       <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
       <file name="AuthenticationError.js" path="C:\Users\Lenovo-PC\Desktop\auth-api\src\Commons\exceptions\AuthenticationError.js">
@@ -41,38 +63,38 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Domains.users.entities">
       <metrics statements="22" coveredstatements="22" conditionals="24" coveredconditionals="24" methods="3" coveredmethods="3"/>
       <file name="RegisterUser.js" path="C:\Users\Lenovo-PC\Desktop\auth-api\src\Domains\users\entities\RegisterUser.js">
         <metrics statements="12" coveredstatements="12" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
-        <line num="3" count="5" type="cond" truecount="5" falsecount="0"/>
+        <line num="3" count="7" type="cond" truecount="5" falsecount="0"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="7" count="4" type="cond" truecount="5" falsecount="0"/>
+        <line num="7" count="6" type="cond" truecount="5" falsecount="0"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
       </file>
       <file name="RegisteredUser.js" path="C:\Users\Lenovo-PC\Desktop\auth-api\src\Domains\users\entities\RegisteredUser.js">
         <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="15" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="5" falsecount="0"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="5" falsecount="0"/>
+        <line num="18" count="3" type="cond" truecount="5" falsecount="0"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
       </file>
     </package>
   </project>
